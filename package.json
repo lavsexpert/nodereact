@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/lavsexpert/nodereact/issues"
   },
-  "homepage": "https://github.com/lavsexpert/nodereact#readme"
+  "homepage": "https://github.com/lavsexpert/nodereact#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
