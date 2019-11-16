@@ -1,0 +1,25 @@
+{
+  "name": "nodereact",
+  "version": "0.1.1",
+  "description": "Проект взаимодействия React.JS и Node.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lavsexpert/nodereact.git"
+  },
+  "keywords": [
+    "nodejs",
+    "reactjs",
+    "node",
+    "react"
+  ],
+  "author": "lavsexpert",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lavsexpert/nodereact/issues"
+  },
+  "homepage": "https://github.com/lavsexpert/nodereact#readme"
+}
