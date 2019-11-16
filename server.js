@@ -40,6 +40,14 @@ app.post('/users', function(req,res){
   res.send(user);
 })
 
+app.put('/users/:id', function(req,res){
+  var user = users.find(function (user){
+    return user.id === Number(req.params.id)
+  });
+  user.name = req.body.name;
+  res.sendStatus(200);
+})
+
 app.listen(3001, function(){
   console.log('API app started');
 })
